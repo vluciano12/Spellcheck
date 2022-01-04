@@ -7475,6 +7475,7 @@ baht
 bahts
 baidarka
 baidarkas
+baikal
 bail
 bailable
 bailed

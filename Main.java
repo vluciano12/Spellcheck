@@ -16,7 +16,7 @@ class Main {
 
       System.out.print("Enter a word to spell check or q to quit: ");
       word = scan.nextLine();
-      }    
+    }
     scan.close();
   }
 }
