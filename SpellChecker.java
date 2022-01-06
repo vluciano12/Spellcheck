@@ -15,10 +15,8 @@ public class SpellChecker {
 
   public boolean spellcheck(String word) {
     word = word.toLowerCase();
-    String curWord = null;
-    for (int i = 0; i < dictionary.length; i++) {
-      curWord = dictionary[i];
-      if (curWord.equals(word)) {
+    for (String i : dictionary) {
+      if (i.equals(word)) {
         return true;
       }
     }
@@ -27,11 +25,9 @@ public class SpellChecker {
 
   public void printStartsWith(String word) {
     word = word.toLowerCase();
-    String curWord = null;
-    for (int i = 0; i < dictionary.length; i++) {
-      curWord = dictionary[i];
-      if (curWord.startsWith(word)){
-        System.out.println(curWord);
+    for (String i : dictionary) {
+      if (i.startsWith(word)){
+        System.out.println(i);
       }
     }
   }
